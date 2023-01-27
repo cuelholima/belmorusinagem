@@ -2146,6 +2146,11 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.90rem!important;
+    text-align: center!important;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
@@ -11783,4 +11788,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 .contact-img img {
   height: 100%;
   width: 100%;
+}
+.success {
+  background-color: #9fd2a1;
+  padding: 5px 10px;
+  color: #326b07;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 14px;
+  margin-top: 10px;
 }
